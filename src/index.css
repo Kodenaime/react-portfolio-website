@@ -13,9 +13,9 @@
 }
 
 :root {
-    --color-bg: rgb(21, 21, 128);
+    --color-bg: rgb(13, 13, 71);
     --color-bg-variant: rgb(21, 21, 255);;
-    --color-primary: orange;
+    --color-primary: orangered;
     --color-primary-variant: rgb(231, 91, 40);
     --color-white: #fff;
     --color-light: rgb(233, 154, 21, 0.6);
@@ -60,6 +60,11 @@ h1 {
     font-size: 2.5rem;
 }
 
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+
 section > h2, section > h5 {
     text-align: center;
     color: var(--color-light);
@@ -98,13 +103,21 @@ a:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border: transparent;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .btn-primary {
     background: var(--color-primary);
-    width: 95%;
-    object-fit: cover;
+    color: #333;
+    padding: 0.7rem 1rem;
+    border-radius: 0.4rem;
+    
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 
