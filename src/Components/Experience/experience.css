@@ -5,16 +5,16 @@
 }
 
 .experience-container > div {
-    background: rgb(30, 30, 107);
+    background: var(--color-blue);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border-radius: 2px solid transparent ;
+    border-radius: 2rem;    
     transition: var(--transition);
+    border: 0.6px solid transparent; 
 }
 
 .experience-container > div:hover {
     background: transparent;
-    border: orangered; 
+    border-color: var(--color-primary);
     cursor: default;
 }
 

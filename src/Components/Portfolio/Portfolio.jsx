@@ -1,10 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import port1 from '../../assets/port1.png'
+import kodechopz from '../../assets/kodechopz.png'
 import port2 from '../../assets/port2.png'
 import port3 from '../../assets/port3.png'
-import port4 from '../../assets/port4.png'
-import port5 from '../../assets/port5.png'
+import amiirad from '../../assets/amiirad.png'
+import reactPortfolio from '../../assets/reactPortfolio.png'
 import port6 from '../../assets/port6.png'
 
 
@@ -12,9 +12,9 @@ const data = [
 
   {
     id: 1,
-    image: port1,
+    image: kodechopz,
     title: 'A Portfolio Website',
-    github: '/Kodenaime/My-Portfolio',
+    github: 'https://github.com/Kodenaime/kode-chops',
     demo: 'https://resonant-boba-a968b2.netlify.app/'
   },
   {
@@ -33,16 +33,16 @@ const data = [
   },
   {
     id: 4,
-    image: port4,
+    image: amiirad,
     title: 'A react portfolio',
-    github: 'https://github.com/Kodenaime/React-portfolio.git',
+    github: 'https://github.com/Kodenaime/amiirad-catalogue',
     demo: 'https://kodenaime.github.io/React-portfolio/'
   },
   {
     id: 5,
-    image: port5,
+    image: reactPortfolio,
     title: 'A school management system',
-    github: 'https://github.com/Kodenaime/Pub-Class.git',
+    github: 'https://github.com/Kodenaime/react-portfolio-website',
     demo: 'https://kodenaime.github.io/Pub-Class/'
   },
   {

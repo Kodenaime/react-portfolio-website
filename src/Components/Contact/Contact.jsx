@@ -37,19 +37,19 @@ const Contact = () => {
             <MdMarkEmailRead className='contact-icon'/>
             <h4>Email</h4>
             <h5>creativedannyk@gmail.com</h5>
-            <a href="mailto:creativedannyk@gmail.com" target='_blank'>Send a messge</a>
+            <a href="mailto:creativedannyk@gmail.com" target='_blank' rel="noreferrer">Send a messge</a>
           </article>
           <article className="contact">
             <FaLinkedin className='contact-icon'/>
             <h4>Linkedin</h4>
             <h5>Ekechukwu Daniel</h5>
-            <a href="" target='_blank'>Send a messge</a>
+            <a href="https://www.linkedin.com/in/daniel-ekechukwu-4ba26a244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8b4zYDC1QlyEKWt5UcoexQ%3D%3D" target='_blank' rel="noreferrer">Send a messge</a>
           </article>
           <article className="contact">
             <FaSquareWhatsapp className='contact-icon'/>
             <h4>Whatsapp</h4>
             <h5>Ekechukwu Daniel</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2348068564195" target='_blank'>Send a messge</a>
+            <a href="https://wa.me/+2348068564195?" target='_blank' rel="noreferrer">Send a messge</a>
           </article>
         </div>
         

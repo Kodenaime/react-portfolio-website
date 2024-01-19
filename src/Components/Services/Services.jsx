@@ -9,7 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container service-container">
-
+        
 
         <article className="service">
           <div className="head">
@@ -18,20 +18,20 @@ const Services = () => {
             <ul className="list">
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Updates:</b> Identifying and fixing issues, and applying updates to keep websites running smoothly.</p>
               </li>  
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>SEO (Search Engine Optimization):</b> Optimizing content for search engines to improve visibility.</p>
               </li>             
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Product Reviews:</b> Creating content to review and promote products or services.</p>
               </li> 
-              <li>
+              {/* <li>
                 <BiCheck className="list-icon"/>
                 <p>Lorem ipsum dolor sit amet.</p>
-              </li> 
+              </li>  */}
             </ul>
           
         </article>
@@ -42,24 +42,21 @@ const Services = () => {
             <ul className="list">
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Development:</b> Creating the user interface and user experience on the client side.</p>
               </li>  
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Responsive Design:</b> Ensuring websites are optimized for various devices and screen sizes.</p>
               </li>             
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Custom Web Development:</b> Building tailored web applications to meet specific business requirements.</p>
               </li> 
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Web Api Integration:</b> Integrating third-party APIs and services into web applications.</p>
               </li> 
-              <li>
-                <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </li> 
+             
             </ul>
           
         </article>
@@ -72,20 +69,21 @@ const Services = () => {
             <ul className="list">
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Article Writing:</b> Creating written content for websites, blogs, or publications.</p>
+              </li>
+              <li>
+                <BiCheck className="list-icon"/>
+                <p><b>Content Posting:</b> Planning and scheduling posts on social media platforms.</p>
               </li>  
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Community Engagement:</b> Interacting with the audience through comments, messages, and discussions.</p>
               </li>             
               <li>
                 <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p><b>Social Media Strategy:</b> Developing a strategy to grow and engage the audience on various platforms.</p>
               </li> 
-              <li>
-                <BiCheck className="list-icon"/>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </li> 
+               
             </ul>
           
         </article>

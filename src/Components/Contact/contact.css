@@ -12,7 +12,7 @@
 }
 
 .contact {
-    background: var(--new-color);
+    background: var(--color-blue);
     padding: 1.1rem;
     border-radius: 1rem;
     text-align: center;
@@ -59,7 +59,7 @@ input, textarea {
 /* Responsiveness for tablets*/
 
 @media screen and (max-width: 1024px) {
-   .contact.contact-container {
+   .container.contact-container {
         grid-template-columns: 1fr;
         gap: 2rem;
    }
@@ -73,4 +73,6 @@ input, textarea {
     .contact.contact-container {
         width: var(--container-width-sm);
    }
+
+
 } 

@@ -38,12 +38,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Vitae modi possimus repellat earum vel, eos unde ipsum aut ducimus, 
-             quisquam numquam voluptates nihil harum, obcaecati expedita nobis 
-             fuga velit suscipit?
-          </p>
+          <p>I am an enthusiastic Front-end web developer, with two years of experience.
+             I have experience with the core front-end technologies such as HTML, CSS, and JavaScript.
+             I am also experienced with ReactJs, Tailwind Css, Git and Github and consuming API's.
+             I am open to learning and new opportunities as a Front-end developer</p>
 
           <a href="#contact" className='btn btn-primary'>let's Talk</a>
 
