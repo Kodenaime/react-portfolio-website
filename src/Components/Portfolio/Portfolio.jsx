@@ -14,7 +14,7 @@ const data = [
     id: 1,
     image: kodechopz,
     title: 'A Portfolio Website',
-    github: 'https://github.com/Kodenaime/kode-chops',
+    github: 'https://github.com/Kodenaime/kode-chops', 
     demo: 'https://resonant-boba-a968b2.netlify.app/'
   },
   {
