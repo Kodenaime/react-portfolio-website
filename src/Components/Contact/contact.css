@@ -69,7 +69,7 @@ input, textarea {
 
 /* Responsiveness for phones*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     .contact.contact-container {
         width: var(--container-width-sm);
    }

@@ -148,7 +148,7 @@ img {
 
 /* Responsiveness for phones*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
