@@ -4,7 +4,7 @@ import kodechopz from '../../assets/kodechopz.png'
 import port2 from '../../assets/port2.png'
 import port3 from '../../assets/port3.png'
 import amiirad from '../../assets/amiirad.png'
-import reactPortfolio from '../../assets/reactPortfolio.png'
+import kola from '../../assets/kola.png'
 import port6 from '../../assets/port6.png'
 
 
@@ -13,9 +13,9 @@ const data = [
   {
     id: 1,
     image: kodechopz,
-    title: 'A Portfolio Website',
+    title: 'A Restaurant Website',
     github: 'https://github.com/Kodenaime/kode-chops', 
-    demo: 'https://resonant-boba-a968b2.netlify.app/'
+    demo: 'https://kode-chops-9z1cozxgw-daniels-projects-4a072c3b.vercel.app/'
   },
   {
     id: 2,
@@ -34,16 +34,16 @@ const data = [
   {
     id: 4,
     image: amiirad,
-    title: 'A react portfolio',
+    title: 'A Landing Page for a Clothing Brand',
     github: 'https://github.com/Kodenaime/amiirad-catalogue',
-    demo: 'https://kodenaime.github.io/React-portfolio/'
+    demo: 'https://amiradfashion.com/'
   },
   {
     id: 5,
-    image: reactPortfolio,
-    title: 'A school management system',
-    github: 'https://github.com/Kodenaime/react-portfolio-website',
-    demo: 'https://kodenaime.github.io/Pub-Class/'
+    image: kola,
+    title: 'An Accounting Agency Website',
+    github: 'https://github.com/Kodenaime/Kolabamiwuye',
+    demo: 'https://kolabamiwuye.com/'
   },
   {
     id: 6,
