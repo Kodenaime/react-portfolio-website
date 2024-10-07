@@ -6,6 +6,9 @@ import port3 from '../../assets/port3.png'
 import amiirad from '../../assets/amiirad.png'
 import kola from '../../assets/kola.png'
 import port6 from '../../assets/port6.png'
+import dream from '../../assets/dream.png'
+import interchain from '../../assets/interchain.png'
+import nft from '../../assets/nft.png'
 
 
 const data = [
@@ -15,42 +18,63 @@ const data = [
     image: kodechopz,
     title: 'A Restaurant Website',
     github: 'https://github.com/Kodenaime/kode-chops', 
-    demo: 'https://kode-chops-9z1cozxgw-daniels-projects-4a072c3b.vercel.app/'
+    live: 'https://kode-chops-9z1cozxgw-daniels-projects-4a072c3b.vercel.app/'
   },
   {
     id: 2,
     image: port2,
     title: 'Annas Closet A Display website',
     github: 'https://github.com/Kodenaime/Anna-s-Closet',
-    demo: 'https://kodenaime.github.io/Anna-s-Closet/'
+    live: 'https://kodenaime.github.io/Anna-s-Closet/'
   },
   {
     id: 3,
     image: port3,
     title: 'Absu Blog- A functional blog',
     github: 'https://github.com/Kodenaime/Absu-Blog',
-    demo: 'https://kodenaime.github.io/Absu-Blog/'
+    live: 'https://kodenaime.github.io/Absu-Blog/'
   },
   {
     id: 4,
     image: amiirad,
     title: 'A Landing Page for a Clothing Brand',
     github: 'https://github.com/Kodenaime/amiirad-catalogue',
-    demo: 'https://amiradfashion.com/'
+    live: 'https://amiradfashion.com/'
   },
   {
     id: 5,
     image: kola,
     title: 'An Accounting Agency Website',
     github: 'https://github.com/Kodenaime/Kolabamiwuye',
-    demo: 'https://kolabamiwuye.com/'
+    live: 'https://kolabamiwuye.com/'
   },
   {
     id: 6,
     image: port6,
     title: 'A website for a digital agency',
     github: 'https://github.com/Kodenaime/digital-agency-.git',
-    demo: 'https://kodenaime.github.io/digital-agency-/'
+    live: 'https://kodenaime.github.io/digital-agency-/'
+  },
+  {
+    id: 7,
+    image: dream,
+    title: 'A website for a Visa Agency',
+    github: 'https://github.com/Kodenaime/dream-alliance',
+    live: 'https://yourdreamalliance.com/'
+  },
+  {
+    id: 8,
+    image: nft,
+    title: 'A website for a digital agency',
+    github: 'https://github.com/Kodenaime/nft-purchase',
+    live: 'https://nft-purchase.vercel.app/'
+  },
+  {
+    id: 9,
+    image: interchain,
+    title: 'A website for a digital agency',
+    github: 'https://github.com/Kodenaime/interchain',
+    live: 'https://interchain-chi.vercel.app/'
   },
 
 ]
@@ -67,7 +91,7 @@ const Portfolio = () => {
 
        
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, github, live}) => {
               return (
                 <article key={id} className="portfolio">
                     <div className="portfolio-image">
@@ -76,7 +100,7 @@ const Portfolio = () => {
                     <h3>{ title }</h3>
                     <div className="portfolio-cta">
                     <a href={ github } className='btn' target='_blank'>Github</a>
-                    <a href={ demo } className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href={ live } className='btn btn-primary' target='_blank'>Live link</a>
                     </div>               
                 </article>
               )
