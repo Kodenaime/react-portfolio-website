@@ -9,6 +9,12 @@ import port6 from '../../assets/port6.png'
 import dream from '../../assets/dream.png'
 import interchain from '../../assets/interchain.png'
 import nft from '../../assets/nft.png'
+import port10 from '../../assets/port10.png'
+import port11 from '../../assets/port11.png'
+import port12 from '../../assets/port12.png'
+import port13 from '../../assets/port13.png'
+import port14 from '../../assets/port14.png'
+import port15 from '../../assets/port15.png'
 
 
 const data = [
@@ -75,6 +81,48 @@ const data = [
     title: 'A website for a digital agency',
     github: 'https://github.com/Kodenaime/interchain',
     live: 'https://interchain-chi.vercel.app/'
+  },
+  {
+    id: 10,
+    image: port10,
+    title: 'An Art Display page ',
+    github: 'https://github.com/Kodenaime/art-page',
+    live: 'https://art-page-zeta.vercel.app/'
+  },
+  {
+    id: 11,
+    image: port11,
+    title: 'A Fullstack Blog using MERN Stack',
+    github: 'https://github.com/Kodenaime/interchain',
+    live: 'https://client-nine-brown.vercel.app/'
+  },
+  {
+    id: 12,
+    image: port12,
+    title: 'A text to image generator with Tailwind css',
+    github: 'https://github.com/Kodenaime/text-image/tree/master/client',
+    live: 'https://text-to-image-bay.vercel.app/'
+  },
+  {
+    id: 13,
+    image: port13,
+    title: 'A website for a furniture company',
+    github: 'https://github.com/Kodenaime/furniture-website',
+    live: 'https://furniture-website-seven-smoky.vercel.app/'
+  },
+  {
+    id: 14,
+    image: port14,
+    title: 'A website for a SEO agency',
+    github: 'https://github.com/Kodenaime/gloss-app',
+    live: 'https://gloss-app.vercel.app/'
+  },
+  {
+    id: 15,
+    image: port15,
+    title: 'A Web 3 website for a token launch',
+    github: 'https://github.com/Kodenaime/stage-airdrop',
+    live: 'https://stage-airdrop.vercel.app/'
   },
 
 ]
