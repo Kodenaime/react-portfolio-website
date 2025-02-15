@@ -24,7 +24,7 @@ const About = () => {
             <article className="about-card">
               <FaAward className='about-icon'/>
               <h5>Experience</h5>
-              <small>2+ years working</small>
+              <small>3+ years working</small>
             </article>
             <article className="about-card">
               <FiUsers className='about-icon'/>
@@ -38,10 +38,12 @@ const About = () => {
             </article>
           </div>
 
-          <p>I am an enthusiastic Front-end web developer, with two years of experience.
-             I have experience with the core front-end technologies such as HTML, CSS, and JavaScript.
-             I am also experienced with ReactJs, Tailwind Css, Git and Github and consuming API's.
-             I am open to learning and new opportunities as a Front-end developer</p>
+          <p>Highly motivated and detail-oriented Front-end Web Developer with over 3 years of experience in crafting responsive
+            , user-centric interfaces. Proficient in a range of front-end technologies, including HTML, CSS, JavaScript, ReactJs
+            , and Tailwind CSS. Skilled in version control with Git and GitHub, as well as consuming APIs to drive 
+            dynamic web applications.
+             Dedicated to staying up-to-date with 
+            industry trends and best practices, with a passion for continuous learning and growth.</p>
 
           <a href="#contact" className='btn btn-primary'>let's Talk</a>
 

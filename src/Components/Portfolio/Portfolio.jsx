@@ -15,6 +15,9 @@ import port12 from '../../assets/port12.png'
 import port13 from '../../assets/port13.png'
 import port14 from '../../assets/port14.png'
 import port15 from '../../assets/port15.png'
+import port16 from '../../assets/port16.png'
+import port17 from '../../assets/port17.png'
+import port18 from '../../assets/port18.png'
 
 
 const data = [
@@ -71,14 +74,14 @@ const data = [
   {
     id: 8,
     image: nft,
-    title: 'A website for a digital agency',
+    title: 'A website for NFT Sales and Exchange',
     github: 'https://github.com/Kodenaime/nft-purchase',
     live: 'https://nft-purchase.vercel.app/'
   },
   {
     id: 9,
     image: interchain,
-    title: 'A website for a digital agency',
+    title: 'A website for Cryptocurrency Exchange',
     github: 'https://github.com/Kodenaime/interchain',
     live: 'https://interchain-chi.vercel.app/'
   },
@@ -123,6 +126,27 @@ const data = [
     title: 'A Web 3 website for a token launch',
     github: 'https://github.com/Kodenaime/stage-airdrop',
     live: 'https://stage-airdrop.vercel.app/'
+  },
+  {
+    id: 16,
+    image: port17,
+    title: 'An Animated Coffee Website',
+    github: 'https://github.com/Kodenaime/kode-cafe',
+    live: 'https://kode-cafe.vercel.app/'
+  },
+  {
+    id: 17,
+    image: port16,
+    title: 'An Entertainment Industry Landing Page',
+    github: 'https://github.com/Kodenaime/zellers',
+    live: 'https://zellers.netlify.app/'
+  },
+  {
+    id: 18,
+    image: port18,
+    title: 'Live React Portfolio',
+    github: 'https://github.com/Kodenaime/react-portfolio-website',
+    live: 'https://daniels-website-ten.vercel.app/I'
   },
 
 ]
