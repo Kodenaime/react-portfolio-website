@@ -21,48 +21,12 @@ import port18 from '../../assets/port18.png'
 
 
 const data = [
-
   {
-    id: 1,
-    image: kodechopz,
-    title: 'A Restaurant Website',
-    github: 'https://github.com/Kodenaime/kode-chops', 
-    live: 'https://kode-chops-9z1cozxgw-daniels-projects-4a072c3b.vercel.app/'
-  },
-  {
-    id: 2,
-    image: port2,
-    title: 'Annas Closet A Display website',
-    github: 'https://github.com/Kodenaime/Anna-s-Closet',
-    live: 'https://kodenaime.github.io/Anna-s-Closet/'
-  },
-  {
-    id: 3,
-    image: port3,
-    title: 'Absu Blog- A functional blog',
-    github: 'https://github.com/Kodenaime/Absu-Blog',
-    live: 'https://kodenaime.github.io/Absu-Blog/'
-  },
-  {
-    id: 4,
-    image: amiirad,
-    title: 'A Landing Page for a Clothing Brand',
-    github: 'https://github.com/Kodenaime/amiirad-catalogue',
-    live: 'https://amiradfashion.com/'
-  },
-  {
-    id: 5,
-    image: kola,
-    title: 'An Accounting Agency Website',
-    github: 'https://github.com/Kodenaime/Kolabamiwuye',
-    live: 'https://kolabamiwuye.com/'
-  },
-  {
-    id: 6,
-    image: port6,
-    title: 'A website for a digital agency',
-    github: 'https://github.com/Kodenaime/digital-agency-.git',
-    live: 'https://kodenaime.github.io/digital-agency-/'
+    id: 16,
+    image: port17,
+    title: 'An Animated Coffee Website',
+    github: 'https://github.com/Kodenaime/kode-cafe',
+    live: 'https://kode-cafe.vercel.app/'
   },
   {
     id: 7,
@@ -71,6 +35,37 @@ const data = [
     github: 'https://github.com/Kodenaime/dream-alliance',
     live: 'https://yourdreamalliance.com/'
   },
+  {
+    id: 5,
+    image: kola,
+    title: 'An Accounting Agency Website',
+    github: 'https://github.com/Kodenaime/Kolabamiwuye',
+    live: 'https://kolabamiwuye.com/'
+  },
+ 
+  {
+    id: 6,
+    image: port6,
+    title: 'A website for a digital agency',
+    github: 'https://github.com/Kodenaime/digital-agency-.git',
+    live: 'https://kodenaime.github.io/digital-agency-/'
+  },
+  {
+    id: 12,
+    image: port12,
+    title: 'A text to image generator with Tailwind css',
+    github: 'https://github.com/Kodenaime/text-image/tree/master/client',
+    live: 'https://text-to-image-bay.vercel.app/'
+  },
+  {
+    id: 13,
+    image: port13,
+    title: 'A website for a furniture company',
+    github: 'https://github.com/Kodenaime/furniture-website',
+    live: 'https://furniture-website-seven-smoky.vercel.app/'
+  },
+
+  
   {
     id: 8,
     image: nft,
@@ -84,6 +79,20 @@ const data = [
     title: 'A website for Cryptocurrency Exchange',
     github: 'https://github.com/Kodenaime/interchain',
     live: 'https://interchain-chi.vercel.app/'
+  },
+  {
+    id: 14,
+    image: port14,
+    title: 'A website for a SEO agency',
+    github: 'https://github.com/Kodenaime/gloss-app',
+    live: 'https://gloss-app.vercel.app/'
+  },
+  {
+    id: 1,
+    image: kodechopz,
+    title: 'A Restaurant Website',
+    github: 'https://github.com/Kodenaime/kode-chops', 
+    live: 'https://kode-chops-9z1cozxgw-daniels-projects-4a072c3b.vercel.app/'
   },
   {
     id: 10,
@@ -100,26 +109,13 @@ const data = [
     live: 'https://client-nine-brown.vercel.app/'
   },
   {
-    id: 12,
-    image: port12,
-    title: 'A text to image generator with Tailwind css',
-    github: 'https://github.com/Kodenaime/text-image/tree/master/client',
-    live: 'https://text-to-image-bay.vercel.app/'
+    id: 3,
+    image: port3,
+    title: 'Absu Blog- A functional blog',
+    github: 'https://github.com/Kodenaime/Absu-Blog',
+    live: 'https://kodenaime.github.io/Absu-Blog/'
   },
-  {
-    id: 13,
-    image: port13,
-    title: 'A website for a furniture company',
-    github: 'https://github.com/Kodenaime/furniture-website',
-    live: 'https://furniture-website-seven-smoky.vercel.app/'
-  },
-  {
-    id: 14,
-    image: port14,
-    title: 'A website for a SEO agency',
-    github: 'https://github.com/Kodenaime/gloss-app',
-    live: 'https://gloss-app.vercel.app/'
-  },
+ 
   {
     id: 15,
     image: port15,
@@ -127,19 +123,28 @@ const data = [
     github: 'https://github.com/Kodenaime/stage-airdrop',
     live: 'https://stage-airdrop.vercel.app/'
   },
-  {
-    id: 16,
-    image: port17,
-    title: 'An Animated Coffee Website',
-    github: 'https://github.com/Kodenaime/kode-cafe',
-    live: 'https://kode-cafe.vercel.app/'
-  },
+
   {
     id: 17,
     image: port16,
     title: 'An Entertainment Industry Landing Page',
     github: 'https://github.com/Kodenaime/zellers',
     live: 'https://zellers.netlify.app/'
+  },
+  {
+    id: 4,
+    image: amiirad,
+    title: 'A Landing Page for a Clothing Brand',
+    github: 'https://github.com/Kodenaime/amiirad-catalogue',
+    live: 'https://amiradfashion.com/'
+  },
+
+  {
+    id: 2,
+    image: port2,
+    title: 'Annas Closet A Display website',
+    github: 'https://github.com/Kodenaime/Anna-s-Closet',
+    live: 'https://kodenaime.github.io/Anna-s-Closet/'
   },
   {
     id: 18,
