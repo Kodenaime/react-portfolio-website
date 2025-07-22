@@ -18,6 +18,9 @@ import port15 from '../../assets/port15.png'
 import port16 from '../../assets/port16.png'
 import port17 from '../../assets/port17.png'
 import port18 from '../../assets/port18.png'
+import school from '../../assets/school.png'
+import movie from '../../assets/kodefilm.png'
+import pac from '../../assets/Pacmack.png'
 
 
 const data = [
@@ -48,7 +51,28 @@ const data = [
     image: port6,
     title: 'A website for a digital agency',
     github: 'https://github.com/Kodenaime/digital-agency-.git',
-    live: 'https://kodenaime.github.io/digital-agency-/'
+    live: 'https://innovatechnolgies.com'
+  },
+  {
+    id: 19,
+    image: school,
+    title: 'A Learning Management System',
+    github: 'https://github.com/Kodenaime/kode-learning',
+    live: 'https://kode-learning.vercel.app/'
+  },
+  {
+    id: 20,
+    image: pac,
+    title: 'A Landing Page for a Conference',
+    github: 'https://github.com/Kodenaime/pacmack',
+    live: 'https://pacmack.com'
+  },
+   {
+    id: 21,
+    image: movie,
+    title: 'A Movie Streaming Platform',
+    github: 'https://github.com/Kodenaime/kode-film',
+    live: 'https://kode-film.vercel.app/'
   },
   {
     id: 12,
