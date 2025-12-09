@@ -1,76 +1,184 @@
+/* Experience Container */
 .experience-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.experience-container > div {
+/* Experience Cards */
+.experience-card {
     background: var(--color-blue);
-    padding: 2.4rem 5rem;
+    padding: 2rem;
     border-radius: 2rem;    
     transition: var(--transition);
-    border: 0.6px solid transparent; 
+    border: 0.6px solid transparent;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
-.experience-container > div:hover {
+.experience-card:hover {
     background: transparent;
     border-color: var(--color-primary);
     cursor: default;
+    transform: translateY(-5px);
 }
 
-.experience-container > div h3 {
+.experience-card h3 {
     color: var(--color-primary);
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 1.2rem;
 }
 
-.experience {
+/* Experience Content Grid */
+.experience-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    flex: 1;
 }
 
+/* Individual Skills */
 .skills {
     display: flex;
     gap: 1rem;
+    align-items: flex-start;
+}
+
+.skills h4 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.skills small {
+    font-size: 0.85rem;
 }
 
 .experience-icon {
-    margin-top: 6px;
+    margin-top: 4px;
     color: var(--color-primary);
+    font-size: 1.2rem;
+    flex-shrink: 0;
 }
 
+/* Large Desktops (1440px and above) */
+@media screen and (min-width: 1440px) {
+    .experience-container {
+        max-width: 1400px;
+        gap: 2.5rem;
+    }
 
+    .experience-card {
+        padding: 2.5rem;
+    }
 
-/* Responsiveness for tablets*/
+    .experience-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
 
+/* Medium to Large Screens (1025px - 1439px) */
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+    .experience-container {
+        gap: 1.5rem;
+    }
+
+    .experience-card {
+        padding: 1.8rem;
+    }
+
+    .experience-content {
+        gap: 1.2rem;
+    }
+}
+
+/* Tablets (768px - 1024px) */
 @media screen and (max-width: 1024px) {
     .experience-container {
         grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 600px;
     }
 
-    .experience-container > div {
-        width: 80%;
+    .experience-card {
         padding: 2rem;
-        margin: 0 auto;
+        min-height: auto;
     }
 
-    .experience {
-        padding: 1rem;
+    .experience-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
-} 
+}
 
+/* Small Tablets (600px - 767px) */
+@media screen and (max-width: 767px) {
+    .experience-container {
+        gap: 1.5rem;
+    }
 
+    .experience-card {
+        padding: 1.5rem;
+    }
 
-/* Responsiveness for phones*/
+    .experience-content {
+        gap: 1.2rem;
+    }
+}
 
+/* Mobile Phones (below 600px) */
 @media screen and (max-width: 600px) {
     .experience-container {
-        gap: 1rem ;
+        gap: 1rem;
     }
 
-    .experience-container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+    .experience-card {
+        padding: 1.5rem 1rem;
+        border-radius: 1.5rem;
     }
-} 
+
+    .experience-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .experience-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skills {
+        gap: 0.8rem;
+    }
+
+    .skills h4 {
+        font-size: 0.95rem;
+    }
+
+    .skills small {
+        font-size: 0.8rem;
+    }
+
+    .experience-icon {
+        font-size: 1rem;
+    }
+}
+
+/* Very Small Phones (below 400px) */
+@media screen and (max-width: 400px) {
+    .experience-card {
+        padding: 1.2rem 0.8rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1rem;
+    }
+
+    .skills h4 {
+        font-size: 0.9rem;
+    }
+}

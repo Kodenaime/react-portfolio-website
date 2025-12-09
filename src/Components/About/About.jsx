@@ -38,12 +38,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Highly motivated and detail-oriented Front-end Web Developer with over 3 years of experience in crafting responsive
-            , user-centric interfaces. Proficient in a range of front-end technologies, including HTML, CSS, JavaScript, ReactJs
-            , and Tailwind CSS. Skilled in version control with Git and GitHub, as well as consuming APIs to drive 
-            dynamic web applications.
-             Dedicated to staying up-to-date with 
-            industry trends and best practices, with a passion for continuous learning and growth.</p>
+          <p className='about-text'>Results-driven Full-Stack MERN Developer with over 3 years of professional experience in designing, developing, and deploying scalable web applications. Strong expertise in MongoDB, Express.js, React, and Node.js, with proficiency in PostgreSQL (Neon) for modern database solutions. Experienced in building RESTful and GraphQL APIs, implementing authentication systems, and optimising application performance. Proven track record of delivering end-to-end solutions independently and collaboratively, working effectively with cross-functional teams and clients. Detail-oriented professional committed to writing clean, maintainable code and staying current with industry best practices. Passionate about leveraging the MERN stack to create robust, user-centric applications that drive business value.</p>
 
           <a href="#contact" className='btn btn-primary'>let's Talk</a>
 
